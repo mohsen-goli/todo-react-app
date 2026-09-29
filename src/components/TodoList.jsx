@@ -1,6 +1,6 @@
 import TodoItem from "./TodoItem";
 
-function TodoList({ todos }) {
+function TodoList({ todos, onToggle, onDelete }) {
   if (todos.length === 0) {
     return (
       <div className="text-center py-12 px-4 bg-slate-800/50 rounded-lg border border-dashed border-slate-700">
@@ -15,7 +15,12 @@ function TodoList({ todos }) {
   return (
     <ul className="space-y-3">
       {todos.map((todo) => (
-        <TodoItem key={todo.id} todo={todo} />
+        <TodoItem
+          key={todo.id}
+          todo={todo}
+          onToggle={onToggle}
+          onDelete={onDelete}
+        />
       ))}
     </ul>
   );
