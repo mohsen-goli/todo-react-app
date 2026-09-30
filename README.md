@@ -1,16 +1,54 @@
-# React + Vite
+# 🚀 Todo Pro Max
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A feature-rich Todo application built with React and Tailwind CSS. Stay organized and get things done with a clean, modern interface.
 
-Currently, two official plugins are available:
+🔗 **[Live Demo](https://todo-react-app-محسن.vercel.app)** ← بعداً با لینک واقعی عوض می‌کنیم
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![Todo Pro Max Screenshot](./screenshot.png)
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ➕ **Add todos** — Quickly add new tasks
+- ✅ **Toggle completion** — Mark tasks as done with a click
+- ✏️ **Inline edit** — Double-click any todo to edit it (Enter to save, Escape to cancel)
+- 🗑️ **Delete** — Remove individual todos
+- 🔍 **Filter** — View all, active, or completed todos
+- 🧹 **Clear completed** — Remove all completed todos at once
+- 💾 **Persistent storage** — Todos are saved in localStorage
+- 📱 **Responsive design** — Works on desktop, tablet, and mobile
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React 19** — UI library
+- **Vite** — Build tool and dev server
+- **Tailwind CSS v4** — Utility-first CSS framework
+- **JavaScript (ES6+)** — Programming language
+- **localStorage** — Client-side persistence
+
+## 🎯 What I Learned
+
+This project helped me practice and solidify:
+
+- **React Hooks** — `useState` for local state, `useEffect` for side effects
+- **Props & Component Composition** — Passing data and callbacks between components
+- **State Colocation** — Keeping state at the lowest component that needs it
+- **Immutable Updates** — Using `map`, `filter`, and spread operator to update state correctly
+- **Controlled Components** — Managing form inputs with React state
+- **Conditional Rendering** — Showing different UI based on state
+- **localStorage Integration** — Persisting data between sessions
+- **Event Handling** — `onClick`, `onDoubleClick`, `onKeyDown`, `onChange`, `onBlur`
+
+## 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/mohsen-goli/todo-react-app.git
+
+# Navigate into the project
+cd todo-react-app
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
