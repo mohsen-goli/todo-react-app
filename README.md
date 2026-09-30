@@ -2,7 +2,7 @@
 
 A feature-rich Todo application built with React and Tailwind CSS. Stay organized and get things done with a clean, modern interface.
 
-🔗 🔗 **[Live Demo](https://todo-react-app-mohsen.vercel.app)**
+https://todo-react-app-wheat-theta.vercel.app/
 ![Todo Pro Max Screenshot](./screenshot.png)
 
 ## ✨ Features
